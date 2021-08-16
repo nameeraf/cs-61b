@@ -1,0 +1,63 @@
+You must answer at least 4 questions, but the remaining ones are optional. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: Used just one function to change index by wrapping, rather than make two different IncreaseIndex and ReduceIndex functions.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: My resize method was exactly the staff solution, which was nice, since I struggled with a lot.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: Umm nothing in particular, but I could've created a variable starting_capacity and set it to 8, rather than hard coding.
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A: I forgot to add @Override tags, and I could've created variables for usage_factor etc rather than hard coding them.
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: I wish I understood the circular implementation and how index wrapping would work, it took me forever to figure that out.
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: Maybe create one function for increasing and decreasing index, rather than two separate ones.
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: I thought my solution was pretty similar
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: My getRecursive was done pretty well I think.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: Nothing particularly.
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A: I feel like most people's code for LinkedListDeque was pretty similar compared to ArrayDeque, where approaches varied a lot.
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A: I wish I knew how the circular thing worked, it took me a while to understand that concept.
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A: Nothing really
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: It was really nice!
